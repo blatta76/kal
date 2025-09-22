@@ -16,7 +16,7 @@ body {
 }
 
 #display {
-    width: 100%;
+    width: 95%;
     height: 60px;
     font-size: 2em;
     text-align: right;
@@ -45,14 +45,9 @@ button {
 }
 
 button:hover {
-    background-color: #666;
+    background-color: #FF8DA1;
 }
 
 button:active {
     background-color: #888;
-}
-
-/* Стиль для кнопки "=" */
-button:nth-last-child(-n+2) {
-    grid-column: span 2;
 }
